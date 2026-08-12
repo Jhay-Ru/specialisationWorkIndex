@@ -58,7 +58,10 @@ nav {
 main {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: right;
+}
+section {
+max-width: 80rch;
 }
 
 aside {
@@ -130,3 +133,18 @@ footer {
 @media (width < 600px) {
 
 }
+p{ /*spacing between paragraphs for readability and to not to span </br> tags*/
+    padding: 0.5rem;
+}
+button{
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    max-width: 20rch;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+.buttons{
+    display: flex;
+    gap: 16px
+} /* i wanted to align the buttons on the top to be inline with eachother
